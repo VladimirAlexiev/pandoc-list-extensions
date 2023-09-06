@@ -1,6 +1,6 @@
-| <format>                          | gfm | markdown | markdown_github | markdown_strict |
+| (format)                          | gfm | markdown | markdown_github | markdown_strict |
 |-----------------------------------|-----|----------|-----------------|-----------------|
-| <direction>                       | io  | io       | io              | io              |
+| (direction)                       | io  | io       | io              | io              |
 | abbreviations                     | n   | -        | -               | -               |
 | all_symbols_escapable             | n   | +        | +               | -               |
 | angle_brackets_escapable          | n   | -        | -               | -               |

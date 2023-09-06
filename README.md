@@ -32,9 +32,9 @@ perl pandoc-list-extensions.pl > pandoc-extensions.md
 
 This makes a very wide table rich with information:
 
-| <format>                          | biblatex | bibtex | commonmark | commonmark_x | creole | csljson | csv | docbook | docx | dokuwiki | endnotexml | epub | fb2 | gfm | haddock | html | ipynb | jats | jira | json | latex | man | markdown | markdown_github | markdown_mmd | markdown_phpextra | markdown_strict | mediawiki | muse | native | odt | opml | org | ris | rst | rtf | t2t | textile | tikiwiki | tsv | twiki | typst | vimwiki |
+| (format)                          | biblatex | bibtex | commonmark | commonmark_x | creole | csljson | csv | docbook | docx | dokuwiki | endnotexml | epub | fb2 | gfm | haddock | html | ipynb | jats | jira | json | latex | man | markdown | markdown_github | markdown_mmd | markdown_phpextra | markdown_strict | mediawiki | muse | native | odt | opml | org | ris | rst | rtf | t2t | textile | tikiwiki | tsv | twiki | typst | vimwiki |
 |-----------------------------------|----------|--------|------------|--------------|--------|---------|-----|---------|------|----------|------------|------|-----|-----|---------|------|-------|------|------|------|-------|-----|----------|-----------------|--------------|-------------------|-----------------|-----------|------|--------|-----|------|-----|-----|-----|-----|-----|---------|----------|-----|-------|-------|---------|
-| <direction>                       | io       | io     | io         | io           | i      | io      | i   | io      | io   | io       | i          | io   | io  | io  | io      | io   | io    | io   | io   | io   | io    | io  | io       | io              | io           | io                | io              | io        | io   | io     | io  | io   | io  | i   | io  | io  | i   | io      | i        | i   | i     | io    | i       |
+| (direction)                       | io       | io     | io         | io           | i      | io      | i   | io      | io   | io       | i          | io   | io  | io  | io      | io   | io    | io   | io   | io   | io    | io  | io       | io              | io           | io                | io              | io        | io   | io     | io  | io   | io  | i   | io  | io  | i   | io      | i        | i   | i     | io    | i       |
 | abbreviations                     | n        | n      | n          | n            | n      | n       | n   | n       | n    | n        | n          | n    | n   | n   | n       | n    | -     | n    | n    | n    | n     | n   | -        | -               | -            | +                 | -               | n         | n    | n      | n   | -    | n   | n   | n   | n   | n   | n       | n        | n   | n     | n     | n       |
 | all_symbols_escapable             | n        | n      | n          | n            | n      | n       | n   | n       | n    | n        | n          | n    | n   | n   | n       | n    | +     | n    | n    | n    | n     | n   | +        | +               | +            | -                 | -               | n         | n    | n      | n   | +    | n   | n   | n   | n   | n   | n       | n        | n   | n     | n     | n       |
 | angle_brackets_escapable          | n        | n      | n          | n            | n      | n       | n   | n       | n    | n        | n          | n    | n   | n   | n       | n    | -     | n    | n    | n    | n     | n   | -        | -               | -            | -                 | -               | n         | n    | n      | n   | -    | n   | n   | n   | n   | n   | n       | n        | n   | n     | n     | n       |
@@ -117,9 +117,9 @@ You can also specify an optional comma-separated list of formats to limit to:
 perl pandoc-list-extensions.pl markdown,markdown_strict,gfm,markdown_github > pandoc-extensions-markdown.md
 ```
 
-| <format>                          | gfm | markdown | markdown_github | markdown_strict |
+| (format)                          | gfm | markdown | markdown_github | markdown_strict |
 |-----------------------------------|-----|----------|-----------------|-----------------|
-| <direction>                       | io  | io       | io              | io              |
+| (direction)                       | io  | io       | io              | io              |
 | abbreviations                     | n   | -        | -               | -               |
 | all_symbols_escapable             | n   | +        | +               | -               |
 | angle_brackets_escapable          | n   | -        | -               | -               |

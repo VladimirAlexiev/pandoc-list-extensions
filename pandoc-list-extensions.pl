@@ -37,9 +37,9 @@ for my $f (@formats) {
 
 my $fmt = "| %-${ext_len}s | ".(join" | ", map "%-".length($_)."s", @formats)." |\n";
 my $dashes = "|-".("-"x$ext_len)."-|-".(join"-|-", map "-" x length($_), @formats)."-|\n";
-printf $fmt, "<format>",@formats;
+printf $fmt, "(format)",@formats;
 print $dashes;
-printf $fmt, "<direction>",(map $format_dir{$_}, @formats);
+printf $fmt, "(direction)",(map $format_dir{$_}, @formats);
 
 for my $ext (@extensions) {
   printf $fmt, $ext, (map $format_ext{$_}{$ext} || "n", @formats)
