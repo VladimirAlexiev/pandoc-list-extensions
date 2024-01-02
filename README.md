@@ -11,6 +11,14 @@ Since `gfm` doesn't support `citations` that I also need
 ```
 pandoc --from=markdown+pipe_tables+autolink_bare_uris+lists_without_preceding_blankline+citations-smart
 ```
+Note: I think it's better to put this (and all other formatting instructions) in `defaults.yaml`:
+```
+from: markdown+pipe_tables+autolink_bare_uris+lists_without_preceding_blankline+citations-smart
+```
+and then invoke pandoc with much simpler arguments:
+```
+pandoc --defaults=defaults
+```
 
 pandoc has several commands to introspect (discover) all these features:
 ```
